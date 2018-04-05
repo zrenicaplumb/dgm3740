@@ -1,0 +1,46 @@
+body{
+	.container{
+		.nav-button{
+
+		}
+		.nav-menu{
+			
+			ul.primary-nav{
+				    list-style-type: none;
+				li{
+					  list-style-type: none;
+					  float: left;
+					  position: relative;
+					  display: inline;
+					  &:hover ul{
+					  	visibility:visible;
+					  }
+					ul{
+						padding: 0;
+						margin: 0;
+						position: absolute;
+						visibility: hidden;
+
+						li{
+							
+							a{
+								
+							}
+						}
+					}
+					a{
+						text-align: center;
+						text-decoration: none;
+						display: block;
+						margin: 0 10px;
+					}
+				}
+			}
+		}
+		.container{
+			.row{
+
+			}
+		}
+	}
+}

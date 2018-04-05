@@ -1,0 +1,47 @@
+body #big-pic {
+  width: 100%; }
+body .container .title {
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 53px; }
+body .container .search-wrap {
+  clear: both;
+  margin-bottom: 12px; }
+body .container .logo {
+  margin: 0px auto;
+  display: block;
+  width: 85px;
+  float: left;
+  margin-right: 15px;
+  padding: 10px 0; }
+body .container a:active {
+  color: red; }
+body .container .pic {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black; }
+
+@media only screen and (min-width: 1140px) {
+  body .container .nav-menu ul.primary-nav {
+    list-style-type: none; }
+    body .container .nav-menu ul.primary-nav li {
+      list-style-type: none;
+      float: left;
+      position: relative;
+      display: inline; }
+      body .container .nav-menu ul.primary-nav li:hover ul {
+        visibility: visible; }
+      body .container .nav-menu ul.primary-nav li ul {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        visibility: hidden; }
+      body .container .nav-menu ul.primary-nav li a {
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: 0 10px; } }
+
+/*# sourceMappingURL=main.css.map */

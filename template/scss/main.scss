@@ -1,0 +1,22 @@
+
+// Global Specificity
+
+
+
+
+// Site Specificity
+
+
+// Page Specificity
+
+
+@import 'pages/phone-default.scss';
+
+@media only screen and (min-width: 600px){
+	@import 'pages/tablet.scss';
+}
+
+@media only screen and (min-width: 1140px){
+	@import 'pages/desktop.scss';
+}
+
