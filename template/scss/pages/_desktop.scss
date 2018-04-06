@@ -1,25 +1,22 @@
 body{
-	.container{
+		.search-wrap{
+			    position: relative;
+    top: 35px;
+		}
 		.nav-button{
 
 		}
 		.nav-menu{
 			
 			ul.primary-nav{
-				    list-style-type: none;
+				  
 				li{
-					  list-style-type: none;
-					  float: left;
-					  position: relative;
-					  display: inline;
+					  
 					  &:hover ul{
-					  	visibility:visible;
+					  	
 					  }
 					ul{
-						padding: 0;
-						margin: 0;
-						position: absolute;
-						visibility: hidden;
+						
 
 						li{
 							
@@ -29,10 +26,7 @@ body{
 						}
 					}
 					a{
-						text-align: center;
-						text-decoration: none;
-						display: block;
-						margin: 0 10px;
+						
 					}
 				}
 			}
@@ -42,5 +36,5 @@ body{
 
 			}
 		}
-	}
+	
 }
